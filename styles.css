@@ -78,6 +78,8 @@ section {
     padding: 10px;
     max-width: 60%;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 section h2 {
@@ -98,11 +100,6 @@ section h4 {
 section p {
     margin-bottom: 20px;
     color: #555;
-}
-
-.about-content {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .about-photo {
@@ -165,25 +162,25 @@ footer {
     .header-content {
         max-width: 100%;
         padding: 0 20px;
+        display: block;
     }
 
     section {
+        padding: 5%;
+        margin: 5%;
         max-width: 100%;
-    }
-
-    #about {
-        max-width: 100%;
-    }
-
-    .about-content {
-        flex-direction: column;
+        display: block;
     }
 
     .about-photo img {
-        max-width: 50%;
+        max-width: 60%;
+    }
+
+    .about-text {
+        max-width: 100%;
     }
 
     .service-item {
-        flex: 0 0 80%;
+        flex: 0 0 100%;
     }
 }
