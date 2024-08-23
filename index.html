@@ -1,90 +1,513 @@
 <!DOCTYPE html>
-<html lang="en">
+ <html lang="en">
 <head>
+    <link rel="canonical" href="www.malteborggrewe.de" />
+    <link rel="icon" href="images/icon.jpg" type="image/jpg">
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Malte Borggrewe - Freelance Bioinformatician</title>
-    <link rel="icon" href="img/icon.jpg" type="image/jpg">
-</head>
+    <title>Malte Borggrewe - Bioinformatics Consultant</title>
 
+    <!-- Meta SEO -->
+    <meta name="title" content="Malte Borggrewe - Bioinformatics Consultant">
+    <meta name="description" content="Bioinformatics analysis and interpretation services.">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Malte Borggrewe">
+
+    <!-- Social media share TODO -->
+    <meta property="og:title" content=Malte Borggrewe - Bioinformatics Consultant>
+    <meta property="og:site_name" content=Malte Borggrewe>
+    <meta property="og:url" content=https://www.malteborggrewe.de>
+    <meta property="og:description" content=Bioinformatics analysis and interpretation services.>
+    <meta property="og:type" content="">
+    <meta property="og:image" content="">
+
+    <!-- Favicon TODO -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icon.jpg">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icon.jpg">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="./output.css" rel="stylesheet">
+    <!-- <script async defer src="https://buttons.github.io/buttons.js"></script> -->
+</head>
 <body>
-    <header>
-        <div class="header-content">
-            <div class="header-left">
-                <h1><a href="" class="header-link">MALTE BORGGREWE</a> <span class="header-degree">PhD</span><br>
+    <header class="fixed w-full">
+        <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
+            <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+                <a href="" class="flex items-center">
+                    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">MALTE BORGGREWE<span class="header-degree">PhD</span></span>
+                </a>
+                <div class="flex items-center lg:order-2">
+                    <!-- Space for STUFF -->
+                </div>
+                <div class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+                    <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                        <li>
+                            <a href="" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">ABOUT</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">SERVICES</a>
+                        </li>
+                        <li>
+                            <a href="#projects" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">PROJECTS/PUBLICATIONS</a>
+                        </li>
+                        <li>
+                            <a href="#testimonials" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">TESTIMONIALS</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="header-right">
-                <span class="header-sub">Bioinformatician & Biomedical Scientist</span></h1>
-            </div>
-        </div>
+        </nav>
     </header>
 
-    <main>
-        <section id="about">
-                <div class="about-photo">
-                    <img src="img/malteborggrewe.jpg" alt="Malte Borggrewe">
-                </div>
-                <div class="about-text">
-                    <h3>DATA IS THE FUTURE OF BIOMEDICINE ...</h3>
-                    <p>... and I contribute to discovery and innovation with the
-                        analysis and interpretation of large biomedical datasets. My main focus is on omics
-                        technologies in immunology, neuroscience, and developmental biology.</p>
-                    <p>I have 5+ years of experience in bioinformatics, biomedical research, and experimental
-                        generation of omics data. As a result of my mixed background in computational- and
-                        molecular biology, I know where the data comes from and what it means.</p>
-                <h3>LET'S CONNECT</h3>
-                    <p>
+    <!-- Start block -->
+    <section class="bg-white dark:bg-gray-900">
+        <div class="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
+            <div class="mr-auto place-self-top lg:col-span-7">
+                <br>
+                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">Data is the future <br>of biomedicine ...</h1>
+                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">... and I contribute to discovery and innovation with the
+                    analysis and interpretation of large biomedical datasets. My main focus is on omics
+                    technologies in immunology, neuroscience, and developmental biology.</p>
+                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">I have 5+ years of experience in bioinformatics, biomedical research, and experimental
+                    generation of omics data. As a result of my mixed background in computational- and
+                    molecular biology, I know where the data comes from and what it means.</p>
+                <h3 class="max-w-4xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-1xl xl:text-2xl dark:text-white">Let's connect.</h3>
+                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
                     <!-- Calendly link widget begin -->
                         <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
                         <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-                        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/malteborggrewe/meeting?hide_event_type_details=1&hide_gdpr_banner=1&background_color=f7f7f7&text_color=333333&primary_color=000000'});return false;">Schedule a meeting</a>
+                        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/malteborggrewe/meeting?hide_event_type_details=1&hide_gdpr_banner=1&background_color=f7f7f7&text_color=333333&primary_color=000000'});return false;" class="inline-flex items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 27 27">
+                                <path fill-rule="evenodd" d="M5 5a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1 2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a2 2 0 0 1 2-2ZM3 19v-7a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm6.01-6a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm-10 4a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Z" clip-rule="evenodd"/>
+                              </svg>Initial consultation</a>
                     <!-- Calendly link widget end -->
-                    | <a href="https://linkedin.com/in/maltebo" target="_blank">LinkedIn</a> | 
-                    <a href="mailto:hello@malteborggrewe.de" target="_blank">Email</a></p>
-                </div>
-        </section>
-        
-        <section id="services">
-            <h2>SERVICES</h2>
-            <div class="services-container">
-                <div class="service-item">
-                    <h4>Transcriptomics</h4>
-                    <p>Gene expression (spatial, single-cell, bulk)</p>
-                    <p>Non-coding RNA</p>
-                </div>
-                <div class="service-item">
-                    <h4>Epigenomics</h4>
-                    <p>Chromatin accessibility (ATAC)</p>
-                    <p>DNA-protein interactions (ChIP)</p>
-                </div>
-                <div class="service-item">
-                    <h4>Proteomics</h4>
-                    <p>High-dimensional flow cytometry / Mass cytometry</p>
-                    <p>Mass spectrometry</p>
-                </div>
-                <div class="service-item">
-                    <h4>Immunomics</h4>
-                    <p>T/B cell receptor repertoire</p>
-                    <p>Cytokine profiling</p>
-                </div>
-                <div class="service-item">
-                    <h4>Multiomics</h4>
-                    <p>Integration of multimodal data</p>
-                </div>
-                <div class="service-item">
-                    <h4>Consulting</h4>
-                    <p>Planning of omics projects</p>
-                    <p>Bioinformatics training</p>
-                </div>
+                    <a href="https://linkedin.com/in/maltebo" target="_blank" class="inline-flex items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 27 27">
+                            <path fill-rule="evenodd" d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z" clip-rule="evenodd"/> <path d="M7.2 8.809H4V19.5h3.2V8.809Z"/>
+                        </svg>LinkedIn</a>
+                    <a href="mailto:hello@malteborggrewe.de" target="_blank" class="inline-flex items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 27 27">
+                            <path d="M17 6h-2V5h1a1 1 0 1 0 0-2h-2a1 1 0 0 0-1 1v2h-.541A5.965 5.965 0 0 1 14 10v4a1 1 0 1 1-2 0v-4c0-2.206-1.794-4-4-4-.075 0-.148.012-.22.028C7.686 6.022 7.596 6 7.5 6A4.505 4.505 0 0 0 3 10.5V16a1 1 0 0 0 1 1h7v3a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-3h5a1 1 0 0 0 1-1v-6c0-2.206-1.794-4-4-4Zm-9 8.5H7a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2Z"/>
+                          </svg>Email</a></p>
             </div>
-            
-        </section>
-    </main>
+            <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+                <img src="images/malteborggrewe.jpg" alt="malteborggrewe" style="height: 70%; width: auto"/>
+            </div>                
+        </div>
+    </section>
+    <!-- End block -->
 
-    <footer>
-        &copy; 2023 Malte Borggrewe | <a href="pages/imprint.html">Imprint</a>
+   <!-- Start block -->
+   <section class="bg-gray-50 dark:bg-gray-800">
+    <a id="services"></a>
+    <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
+        <div class="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
+            <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Services</h2>
+            <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">I focus on custom-made analysis and interpretation solutions for your research.</p>
+        </div>
+        <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+            <!-- Pricing Card -->
+            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                <h3 class="mb-4 text-2xl font-semibold">Transcriptomics</h3>
+                <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Understanding cell phenotypes and regulation based on gene expression.</p>
+                <div class="flex items-baseline justify-center my-8">
+                </div>
+                <ul role="list" class="mb-8 space-y-4 text-left">
+                    <li class="flex items-center space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>Single-cell or bulk transcriptomics</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>Spatial transcriptomics</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>Non-coding RNA</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- Pricing Card -->
+            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                <h3 class="mb-4 text-2xl font-semibold">Epigenomics</h3>
+                <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Profiling DNA modifications to study gene regulation.</p>
+                <div class="flex items-baseline justify-center my-8">
+                </div>
+                <ul role="list" class="mb-8 space-y-4 text-left">
+                    <li class="flex items-center space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>Chromatin accessibility (ATAC)</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>DNA-protein interactions (ChIP)</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>DNA methylation</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- Pricing Card -->
+            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                <h3 class="mb-4 text-2xl font-semibold">Proteomics</h3>
+                <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Examining the proteome to decode cellular functions.</p>
+                <div class="flex items-baseline justify-center my-8">
+                </div>
+                <ul role="list" class="mb-8 space-y-4 text-left">
+                    <li class="flex items-center space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>Mass cytometry / Flow cytometry</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>Mass spectometry</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="flex items-baseline justify-center my-8">
+        </div>
+        <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+            <!-- Pricing Card -->
+            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                <h3 class="mb-4 text-2xl font-semibold">Immunomics</h3>
+                <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Analyzing immune system components, specificities, and their interactions.</p>
+                <div class="flex items-baseline justify-center my-8">
+                </div>
+                <ul role="list" class="mb-8 space-y-4 text-left">
+                    <li class="flex items-center space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>T/B cell receptor repetoire</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>Cytokine profiling</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- Pricing Card -->
+            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                <h3 class="mb-4 text-2xl font-semibold">Multiomics</h3>
+                <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Integrating diverse omics data for a comprehensive view.</p>
+                <div class="flex items-baseline justify-center my-8">
+                </div>
+                <ul role="list" class="mb-8 space-y-4 text-left">
+                    <li class="flex items-center space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>Data integration</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>Meta analyses</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- Pricing Card -->
+            <div class="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                <h3 class="mb-4 text-2xl font-semibold">Other</h3>
+                <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Didn't find your application? These are examples of additional services.</p>
+                <div class="flex items-baseline justify-center my-8">
+                </div>
+                <ul role="list" class="mb-8 space-y-4 text-left">
+                    <li class="flex items-center space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>Development of analysis pipelines</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>Planning of omics experiments</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>Bioinformatics training</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                        <span>Other custom analyses</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End block -->
+<!-- Start block -->
+<section class="bg-white dark:bg-gray-900">
+    <a id="projects"></a>
+    <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
+        <div class="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
+            <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Projects & Publications</h2>
+            <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">An overview of selected projects and publications.</p>
+        </div>
+        <!-- Row -->
+        <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+            <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+                <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Microglia development in human central nervous system</h2>
+                <p class="mb-8 font-light lg:text-xl">Tracking the dynamics of microglia fetal development using a combination of transcriptomics and epigenomics.</p>
+                <!-- List -->
+                <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
+                    <li class="flex space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Bulk mRNA sequencing</span>
+                    </li>
+                    <li class="flex space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Single-cell mRNA sequencing</span>
+                    </li>
+                    <li class="flex space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Bulk ATAC sequencing</span>
+                    </li>
+                    <li class="flex space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Integration of multiomics</span>
+                    </li>
+                </ul>
+                <p class="mb-8 font-light lg:text-xl">Published in <a href="https://doi.org/10.1126/science.aba5906" target="_blank" class="lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Science</a></p>
+            </div>
+            <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/microglia_development.png" alt="microglia development" style="max-height:500px; height:auto; width:auto;">
+        </div>
+        <!-- Row -->
+        <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+            <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/seumetry.png" alt="seumetry" style="max-height:500px; height:auto; width:auto;">
+            <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+                <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">High-dimensional cytometry analysis toolkit</h2>
+                <p class="mb-8 font-light lg:text-xl">Developing an R toolkit for the analysis of high-dimensional flow- & mass cytometry data.</p>
+                <!-- List -->
+                <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
+                    <li class="flex space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Advanced data cleaning algorithms</span>
+                    </li>
+                    <li class="flex space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Preprocessing & downstream analysis</span>
+                    </li>
+                    <li class="flex space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Integration in single-cell mRNA sequencing frameworks</span>
+                    </li>
+                    <li class="flex space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Open source</span>
+                    </li>
+                </ul>
+                <p class="font-light lg:text-xl">Preprint on <a href="https://doi.org/10.1101/2024.07.23.604747" target="_blank" class="lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">bioRxiv</a></p>
+            </div>
+        </div>
+        <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+            <div class="text-gray-500 sm:text-lg dark:text-gray-400">
+                <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Glia function in neuroinflammation</h2>
+                <p class="mb-8 font-light lg:text-xl">Determining astrocyte and microglia phenotypes during inflammation of the central nervous system.</p>
+                <!-- List -->
+                <ul role="list" class="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
+                    <li class="flex space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Bulk RNAseq</span>
+                    </li>
+                    <li class="flex space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Glia morphology analysis</span>
+                    </li>
+                    <li class="flex space-x-3">
+                        <!-- Icon -->
+                        <svg class="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">Automatic immunohistochemistry analysis</span>
+                    </li>
+                </ul>
+                <p class="font-light lg:text-xl">Publication in 
+                    <a href="http://dx.doi.org/10.1002/glia.23954" target="_blank" class="lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Glia</a> and 
+                    <a href="https://actaneurocomms.biomedcentral.com/articles/10.1186/s40478-021-01186-7" target="_blank" class="lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Acta Neuropathologica Communications</a></p>
+            </div>
+            <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/neuroinflammation.png" alt="seumetry" style="max-height:500px; height:auto; width:auto;">
+        </div>
+    </div>
+  </section>
+<!-- End block -->
+<!-- Start block -->
+    <section class="bg-gray-50 dark:bg-gray-800">
+        <a id="testimonials"></a>
+        <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-24 lg:px-6">
+            <div class="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
+                <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Testimonials</h2>
+                <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Don't take my word for it, see what others have to say.</p>
+            </div>
+            <figure class="max-w-screen-md mx-auto">
+                <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" fill="currentColor"/>
+                </svg> 
+                <blockquote>
+                    <p class="text-xl font-medium text-gray-900 md:text-xl dark:text-white">"... Malte's expertise in bioinformatics and his background in biomedical science were crucial to our project's success. He efficiently analysed our datasets and provided accurate and meaningful insights. He also consistently sought ways to optimize the analysis and met all deadlines. Malte is also an excellent communicator, explaining complex concepts clearly and his patience and collaborative approach made the process smooth and very efficient ..."</p>
+                </blockquote>
+                <figcaption class="flex items-center justify-center mt-6 space-x-3">
+                    <img style="border-radius: 9999px; height: 100px; width: auto;" src="images/umcg.jpg" alt="umcg">
+                    <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                        <p class="pr-3 font-medium text-gray-900 dark:text-white">Peter Heeringa</p><br><br>
+                        <p class="pl-3 text-sm font-light text-gray-500 dark:text-gray-400">Professor of Immunology, University Medical Center Groningen, The Netherlands</p>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+      </section>
+<!-- Start block -->
+    <section class="bg-white dark:bg-gray-900">
+        <a id="contact"></a>
+        <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
+            <div class="max-w-screen-sm mx-auto text-center">
+                <h2 class="mb-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white">Contact</h2>
+                <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Please feel free to get in touch or schedule an initial consultation with me.</p>
+                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+                    <!-- Calendly link widget begin -->
+                        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/malteborggrewe/meeting?hide_event_type_details=1&hide_gdpr_banner=1&background_color=f7f7f7&text_color=333333&primary_color=000000'});return false;" class="inline-flex items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 27 27">
+                                <path fill-rule="evenodd" d="M5 5a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1h1a1 1 0 0 0 1-1 1 1 0 1 1 2 0 1 1 0 0 0 1 1 2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a2 2 0 0 1 2-2ZM3 19v-7a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm6.01-6a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm-10 4a1 1 0 1 1 2 0 1 1 0 0 1-2 0Zm6 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0Zm2 0a1 1 0 1 1 2 0 1 1 0 0 1-2 0Z" clip-rule="evenodd"/>
+                              </svg>Initial consultation</a>
+                    <!-- Calendly link widget end -->
+                    <a href="https://linkedin.com/in/maltebo" target="_blank" class="inline-flex items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 27 27">
+                            <path fill-rule="evenodd" d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z" clip-rule="evenodd"/> <path d="M7.2 8.809H4V19.5h3.2V8.809Z"/>
+                        </svg>LinkedIn</a>
+                    <a href="mailto:hello@malteborggrewe.de" target="_blank" class="inline-flex items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 27 27">
+                            <path d="M17 6h-2V5h1a1 1 0 1 0 0-2h-2a1 1 0 0 0-1 1v2h-.541A5.965 5.965 0 0 1 14 10v4a1 1 0 1 1-2 0v-4c0-2.206-1.794-4-4-4-.075 0-.148.012-.22.028C7.686 6.022 7.596 6 7.5 6A4.505 4.505 0 0 0 3 10.5V16a1 1 0 0 0 1 1h7v3a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-3h5a1 1 0 0 0 1-1v-6c0-2.206-1.794-4-4-4Zm-9 8.5H7a1 1 0 1 1 0-2h1a1 1 0 1 1 0 2Z"/>
+                          </svg>Email</a>
+                </p>
+                    <form action="https://api.staticforms.xyz/submit" method="post" id="staticform">
+                        <!-- Replace with your StaticForms accessKey -->
+                        <input type="hidden" name="accessKey" value="3d2ffa9c-bef2-41e1-b5fe-fe419bb662ff">
+                        <input type="hidden" name="subject" value="Contact">
+                        <!-- Replace with the url you want to redirect to -->
+                        <input type="hidden" name="redirectTo" value="https://www.malteborggrewe.de/test-page/contacted">
+                        <div class="field">
+                          <label class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Name</label>
+                          <div class="control">
+                            <input class="input" style="width:300px" type="text" name="name" placeholder="Your Name" required>
+                          </div>
+                        </div>
+                        <div class="field">
+                          <label class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Email</label>
+                          <div class="control">
+                            <input class="input" style="width:300px" type="email" name="email" placeholder="Your Email" required>
+                          </div>
+                        </div>
+                        <div class="field">
+                          <label class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Message</label>
+                          <div class="control">
+                            <textarea class="textarea" style="width:300px; height:200px" name="message" placeholder="Your Message" required></textarea>
+                          </div>
+                        </div>
+                        <button class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800" type="Submit">Submit</button>
+                      </form>
+                </p>
+            </div>
+        </div>
+    </section>
+<!-- End block -->
+<!-- Start block -->
+    <section class="bg-white dark:bg-gray-900">
+        <div class="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-24 lg:px-6 ">
+            <h2 class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">Frequently asked questions</h2>
+            <div class="max-w-screen-md mx-auto">
+                <div id="accordion-flush" data-accordion="collapse" data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
+                    <h3 id="accordion-flush-heading-2">
+                        <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
+                            <span>How do we get started?</span>
+                            <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </button>
+                    </h3>
+                    <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
+                        <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">Just send me an Email, fill in the form, or book an initial consultation.<br>Let's have a chat.</p>
+                        </div>
+                    </div>
+                    <h3 id="accordion-flush-heading-3">
+                        <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
+                            <span>Is the initial consultation free?</span>
+                            <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </button>
+                    </h3>
+                    <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
+                        <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">Yes.</p>
+                        </div>
+                    </div>
+                    <h3 id="accordion-flush-heading-4">
+                        <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-4" aria-expanded="false" aria-controls="accordion-flush-body-4">
+                            <span>How much do your services cost?</span>
+                            <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </button>
+                    </h3>
+                    <div id="accordion-flush-body-4" class="hidden" aria-labelledby="accordion-flush-heading-4">
+                        <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">The price is dependent on the extent of the project and its requirements.</p>
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">I offer different pricing options depending on your needs.</p>
+                        </div>
+                    </div>
+                    <h3 id="accordion-flush-heading-5">
+                        <button type="button" class="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-5" aria-expanded="false" aria-controls="accordion-flush-body-5">
+                            <span>What pricing options are available?</span>
+                            <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                        </button>
+                    </h3>
+                    <div id="accordion-flush-body-5" class="hidden" aria-labelledby="accordion-flush-heading-5">
+                        <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">Depending on the scope of the project, I offer different pricing options:</p>
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">Hourly-based, project-based, and long-term.</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>               
+        </div>
+    </section>
+<!-- End block -->
+    <footer class="bg-white dark:bg-gray-800">
+        <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">
+            <div class="text-center">
+                <span class="block text-sm text-center text-gray-500 dark:text-gray-400">Design © 2021-2022 Landwind™. All Rights Reserved. Built with <a href="https://flowbite.com" target="_blank" text-purple-600 hover:underline dark:text-purple-500">Flowbite</a> and <a href="https://tailwindcss.com" target="_blank" class="text-purple-600 hover:underline dark:text-purple-500">Tailwind CSS</a>
+                </span>
+                <span class="block text-sm text-center text-gray-500 dark:text-gray-400">Content © 2024 Malte Borggrewe | <a href="privacy" class="text-purple-600 hover:underline dark:text-purple-500">Privacy</a> | <a href="imprint" class="text-purple-600 hover:underline dark:text-purple-500">Imprint</a>
+                </span>
+            </div>
+        </div>
     </footer>
-
+    <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
 </body>
 </html>
